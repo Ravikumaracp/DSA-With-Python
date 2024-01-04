@@ -1,0 +1,12 @@
+import queue
+q=queue.Queue(4)
+q.put(10)
+q.put(10)
+q.put(10)
+q.put(10)
+#q.put(30,block=True,timeout=1)
+q.get()
+q.get()
+q.get()
+q.get()
+#q.get(block=False)

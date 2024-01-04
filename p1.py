@@ -1,0 +1,9 @@
+abc=[]
+abc.append(10)
+abc.append(20)
+abc.append(30)
+print(abc)
+abc.pop()
+print(abc)
+abc.pop(1)
+print(abc)
